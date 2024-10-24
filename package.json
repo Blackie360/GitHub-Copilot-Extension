@@ -1,0 +1,14 @@
+{
+  "name": "GitHub-Copilot-Extension",
+  "scripts": {
+    "dev": "bun run --hot src/index.ts"
+  },
+  "dependencies": {
+    "@copilot-extensions/preview-sdk": "^5.0.1",
+    "@octokit/core": "^6.1.2",
+    "hono": "^4.6.6"
+  },
+  "devDependencies": {
+    "@types/bun": "latest"
+  }
+}
